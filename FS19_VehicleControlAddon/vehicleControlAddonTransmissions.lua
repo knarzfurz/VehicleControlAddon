@@ -1104,7 +1104,7 @@ function vehicleControlAddonTransmissionBase.loadSettings()
 				
 				j = 0
 				while true do 
-					local key2 = key..string.format( ".gearTexts. gearText(%d)", j )
+					local key2 = key..string.format( ".gearTexts.gearText(%d)", j )
 					local text = getXMLString( xmlFile, key2.."#value" ) 
 				--print(tostring(key2)..": "..tostring(text))
 					if text == nil then
